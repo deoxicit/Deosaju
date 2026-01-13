@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import React from 'react';
+
 import BackgroundVideo from './components/BackgroundVideo';
 import BentoLayout from './components/bento/BentoLayout';
 import ProfileCard from './components/bento/cards/ProfileCard';
