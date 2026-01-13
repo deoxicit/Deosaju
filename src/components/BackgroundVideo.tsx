@@ -25,16 +25,14 @@ const BackgroundVideo: React.FC = () => {
                         height="100%"
                         controls={false}
                         config={{
-                            youtube: {
-                                playerVars: {
-                                    showinfo: 0,
-                                    modestbranding: 1,
-                                    controls: 0,
-                                    disablekb: 1,
-                                    fs: 0,
-                                    iv_load_policy: 3,
-                                    playlist: 'IUN-bVQ-KXI', // Required for looping
-                                }
+                            playerVars: {
+                                showinfo: 0,
+                                modestbranding: 1,
+                                controls: 0,
+                                disablekb: 1,
+                                fs: 0,
+                                iv_load_policy: 3,
+                                playlist: 'IUN-bVQ-KXI', // Required for looping
                             }
                         }}
                     />

@@ -11,7 +11,7 @@ const Model = () => {
     const { scene } = useGLTF('/models/porsche_gt3_rs.glb');
     const ref = useRef<THREE.Group>(null);
 
-    useFrame((state, delta) => {
+    useFrame((_, delta) => {
         if (ref.current) {
             // Horizontal rotation
             ref.current.rotation.y += delta * 0.5;
